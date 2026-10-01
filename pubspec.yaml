@@ -1,0 +1,21 @@
+name: edtech_app
+description: "All-in-one PW & KGS style production ready app"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  youtube_player_flutter: ^9.1.1
+  apivideo_live_stream: ^1.2.0
+  permission_handler: ^11.3.1
+  flutter_windowmanager: ^0.2.0
+
+flutter:
+  uses-material-design: true
